@@ -49,7 +49,7 @@ BOARD_CHARGING_CMDLINE_VALUE := "true"
 WITH_LINEAGE_CHARGER := false
 
 # CMHW
-BOARD_HARDWARE_CLASS += device/samsung/msm8974-common/lineagehw
+BOARD_HARDWARE_CLASS += device/samsung/msm8974-common/samsunghw
 
 # Dexpreopt
 ifeq ($(HOST_OS),linux)
