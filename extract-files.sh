@@ -27,7 +27,7 @@ BOARD=msm8974
 DEVICE_COMMON=${BOARD}-common
 VENDOR=samsung
 
-HELPER="$CM_ROOT"/vendor/pixys/build/tools/extract_utils.sh
+HELPER="$CM_ROOT"/vendor/aosp/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
